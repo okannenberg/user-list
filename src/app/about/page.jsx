@@ -22,7 +22,7 @@ export default function AboutPage() {
                 <article className="rounded-2xl border border-slate-200 bg-white p-6">
                     <h2 className="text-2xl font-bold tracking-tight text-app-dark">Objetivo da prática</h2>
                     <p className="mt-4 text-sm leading-6 text-slate-600">
-                        O objective é transformar esta base HTML em uma aplicação Next.js capaz de consumir
+                        O objetivo é transformar esta base HTML em uma aplicação Next.js capaz de consumir
                         dados da API Random User Generator e renderizar os perfis de forma dinâmica.
                     </p>
                 </article>
