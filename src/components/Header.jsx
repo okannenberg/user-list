@@ -24,8 +24,8 @@ export default function Header() {
                         Usuários
                     </Link>
                     <Link
-                        href="/sobre"
-                        className={`rounded-full px-3 py-2 transition-colors ${pathname === '/sobre'
+                        href="/about"
+                        className={`rounded-full px-3 py-2 transition-colors ${pathname === '/about'
                             ? 'bg-app-soft text-app-primary'
                             : 'hover:bg-slate-100'
                             }`}
