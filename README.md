@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# UserList - User Interface with Next.js
 
-## Getting Started
+This project is a functional application developed in Next.js to visualize fictional user profiles consumed directly from the public **Random User Generator** API.
 
-First, run the development server:
+The interface was migrated from a static HTML base and styled in a modern and responsive way using integrated Tailwind CSS.
 
-```bash
+## 🚀 How to Run the Project
+
+To run the project locally on your machine, follow the steps below:
+
+1. **Install dependencies:**
+   npm install
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Access in the browser:
+Open http://localhost:3000 to view the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧪 Test Routine and Report
+As requested in the activity requirements, below is the record of the basic validation of the project's functionalities:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Initialization and Execution
+What was tested: Installation command and execution of the development server.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Result: The project installed dependencies without errors and the server ran perfectly on port 3000.
 
-## Learn More
+2. Home Page Loading and API Consumption
+What was tested: Accessing the / route to check card rendering.
 
-To learn more about Next.js, take a look at the following resources:
+Result: The application successfully fetched data from the Random User Generator API (using the consistency seed) and rendered exactly 10 cards on the screen with dynamic images and information received from the internet.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Navigation to Static Route
+What was tested: Clicking the "Sobre o Projeto" (About the Project) link in the header.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Result: Navigation worked instantaneously through Next.js's Link component, opening the /sobre route with the correct information and toggling the blue highlight in the menu.
 
-## Deploy on Vercel
+4. Navigation and Dynamic Details Route
+What was tested: Clicking the "Ver perfil" (View profile) button of a specific user in the main listing.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Result: The application successfully redirected to the dynamic /usuario/[id] route. The page captured the URL parameter and filtered the data correctly, displaying the detailed information corresponding to the selected user (such as phone and cell phone).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+5. File Verification and Versioning
+What was tested: Checking the files pushed to the GitHub repository.
+
+Result: The repository was successfully cleaned and organized. Temporary and heavy folders (node_modules and .next) were completely ignored by .gitignore, in accordance with the activity restrictions.
