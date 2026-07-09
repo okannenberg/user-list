@@ -1,10 +1,10 @@
-### UserList - User Interface with Next.js
+# UserList - User Interface with Next.js
 
 This project is a functional application developed in Next.js to visualize fictional user profiles consumed directly from the public **Random User Generator** API.
 
 The interface was migrated from a static HTML base and styled in a modern and responsive way using integrated Tailwind CSS.
 
-### 🚀 How to Run the Project
+# 🚀 How to Run the Project
 
 To run the project locally on your machine, follow the steps below:
 
@@ -17,7 +17,7 @@ npm run dev
 Access in the browser:
 Open http://localhost:3000 to view the application.
 
-### 🧪 Test Routine and Report
+# 🧪 Test Routine and Report
 As requested in the activity requirements, below is the record of the basic validation of the project's functionalities:
 
 ## 1. Initialization and Execution
