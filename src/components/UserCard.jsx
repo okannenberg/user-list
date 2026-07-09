@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import ActionLink from './ActionLink';
 
 export default function UserCard({ user }) {
     return (
@@ -26,12 +26,11 @@ export default function UserCard({ user }) {
                 <span className="rounded-full bg-slate-100 px-3 py-1">{user.dob.age} anos</span>
             </div>
 
-            <Link
-                href={`/usuario/${user.login.uuid}`}
-                className="mt-5 inline-flex text-sm font-extrabold text-app-primary hover:text-blue-800"
-            >
-                Ver perfil
-            </Link>
+            <div className="mt-5">
+                <ActionLink href={`/usuario/${user.login.uuid}`}>
+                    Ver perfil
+                </ActionLink>
+            </div>
         </article>
     );
 }
