@@ -2,7 +2,7 @@ import UserCard from "@/components/UserCard";
 
 async function buscarUsuarios() {
   const resposta = await fetch("https://randomuser.me/api/?results=10&seed=preparacao-next");
-  
+
   if (!resposta.ok) {
     throw new Error("Erro ao carregar os dados da API");
   }

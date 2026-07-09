@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+  --color-app-primary: #2563eb;
+  --color-app-dark: #172033;
+  --color-app-soft: #eff6ff;
+}
