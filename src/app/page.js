@@ -7,7 +7,7 @@ async function buscarUsuarios() {
     throw new Error("Erro ao carregar os dados da API");
   }
 
-  const dados = await reply.json();
+  const dados = await resposta.json();
   return dados.results;
 }
 
