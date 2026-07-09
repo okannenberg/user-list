@@ -1,4 +1,4 @@
-export default function SobrePage() {
+export default function AboutPage() {
   return (
     <div>
       <section className="border-b border-slate-200 bg-slate-50">
@@ -23,7 +23,7 @@ export default function SobrePage() {
           <h2 className="text-2xl font-bold tracking-tight text-app-dark">Objetivo da prática</h2>
           <p className="mt-4 text-sm leading-6 text-slate-600">
             O objective é transformar esta base HTML em uma aplicação Next.js capaz de consumir
-            dados da API Random User Generator e renderizar os perfis de forma dinâmica.[cite: 3]
+            dados da API Random User Generator e renderizar os perfis de forma dinâmica.
           </p>
         </article>
 
@@ -31,7 +31,7 @@ export default function SobrePage() {
           <h2 className="text-2xl font-bold tracking-tight text-app-dark">API utilizada</h2>
           <p className="mt-4 text-sm leading-6 text-slate-600">
             A API Random User Generator retorna usuários fictícios com nome, imagem,
-            localização, contato, idade e nacionalidade.[cite: 3]
+            localização, contato, idade e nacionalidade.
           </p>
         </article>
       </section>

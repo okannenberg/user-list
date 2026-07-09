@@ -12,7 +12,7 @@ export default function Header() {
           <Link href="/" className="rounded-full bg-app-soft px-3 py-2 text-app-primary">
             Usuários
           </Link>
-          <Link href="/sobre" className="rounded-full px-3 py-2 hover:bg-slate-100">
+          <Link href="/about" className="rounded-full px-3 py-2 hover:bg-slate-100">
             Sobre o Projeto
           </Link>
         </nav>
